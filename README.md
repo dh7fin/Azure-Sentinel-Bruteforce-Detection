@@ -56,7 +56,7 @@ A security incident is automatically created by Microsoft Sentinel for investiga
 
 ## Full Technical Report
 
-📄 [Download Full Project Report (PDF)](Microsoft Azure Project-Azure Sentinel Brute-Force Detection Lab.pdf)
+📄 [Download Full Project Report (PDF)](Microsoft-Azure-Project-Azure-Sentinel-Brute-Force-Detection-Lab.pdf)
 
 ---
 
