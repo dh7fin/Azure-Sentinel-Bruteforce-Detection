@@ -2,17 +2,17 @@
 
 ## Overview
 
-This project demonstrates the implementation of a cloud-native SIEM solution in Microsoft Azure using Microsoft Sentinel to detect brute-force RDP authentication attempts against a Windows virtual machine.
+This project demonstrates how to use Microsoft Sentinel to detect brute-force RDP authentication attempts against a Windows virtual machine in Microsoft Azure as part of a cloud-native SIEM solution.
 
-The lab simulates repeated failed logon attempts (Event ID 4625) and validates end-to-end detection from log ingestion to automated incident generation and investigation.
+The lab replicates multiple unsuccessful attempts to log in (Event ID 4625) and verifies end-to-end detection, from automated incident generation and investigation to log ingestion.
 
 ---
 
 ## Threat Context
 
-Brute-force attacks are a common credential access technique targeting internet-exposed services such as RDP. In cloud environments, exposed virtual machines without proper monitoring can be vulnerable to password spraying and automated authentication attacks.
+RDP and other internet-exposed services are frequently the target of brute-force attacks, a common credential access tactic. In cloud environments, automated authentication attacks and password spraying can affect exposed virtual machines that are not properly monitored.
 
-This project focuses on detecting abnormal authentication behaviour using Windows Security Events and transforming that telemetry into actionable security incidents within Microsoft Sentinel.
+This project's focus is to use Windows Security Events to detect unusual authentication behaviour and turn that information into Microsft Sentinel security incidents that can be taken action on.
 
 ---
 
