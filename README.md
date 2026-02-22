@@ -35,9 +35,9 @@ This project's focus is to use Windows Security Events to detect unusual authent
 
 ## Detection Logic
 
-The scheduled analytics rule monitors Windows Security Event ID 4625 (failed logon attempts). The detection triggers when multiple failed authentication attempts occur within a defined time window, indicating behaviour consistent with brute-force activity.
+The Windows Security Event ID 4625 (failed attempts at login) is tracked by the scheduled analytics rule. Multiple failed login attempts within a defined time frame that show behaviour consistent with brute-force activites triggers the detector.
 
-When the configured threshold is exceeded, Microsoft Sentinel automatically generates a security incident for investigation.
+A security incident is automatically created by Microsoft Sentinel for investigation when the preset threshold is exceeded.
 
 ---
 
