@@ -62,4 +62,4 @@ A security incident is automatically created by Microsoft Sentinel for investiga
 
 ## Conclusion
 
-This project successfully validated a cloud-native detection pipeline capable of identifying brute-force authentication behaviour within an Azure-hosted environment. By operationalizing Windows Security telemetry into automated incident generation, the lab demonstrates practical detection engineering and cloud security monitoring capabilities aligned with modern SOC workflows.
+In an Azure-hosted environment, this project successfully validated a cloud-native detection pipeline that can identify brute-force authentication behaviour. The lab exhibits useful detection engineering and cloud security monitoring capabilities that are in line with contemporary SOC operations by operationalizing Windows Security telemetry into automated incident generation.
