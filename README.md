@@ -29,7 +29,7 @@ This project's focus is to use Windows Security Events to detect unusual authent
 ![Architecture Diagram](architecture-diagram.png)
 
 📄 High-Resolution Architecture Diagram (PDF):  
-[Download Architecture Diagram (PDF)](architecture-diagram.pdf)
+[Download Architecture Diagram (PDF)](architecture-diagram-sentinel.pdf)
 
 ---
 
